@@ -18,7 +18,7 @@
 A simple usage example:
 python train.py
 """
-import os
+# import os
 # os.environ['CUDA_VISIBLE_DEVICES'] = ''
 import collections
 import logging
