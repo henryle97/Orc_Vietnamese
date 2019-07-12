@@ -7,7 +7,7 @@ DEFAULT_CONFIG = {
         'MYDATASET',
     'splits': {
         'train': {
-            'size': 7446,
+            'size': 2000,
             'pattern': 'tfexample_train*'
         },
         'test': {
@@ -23,7 +23,7 @@ DEFAULT_CONFIG = {
     'max_sequence_length':
         37,
     'null_code':
-        201,
+        11,
     'items_to_descriptions': {
         'image':
             'A [150 x 600 x 3] color image.',
